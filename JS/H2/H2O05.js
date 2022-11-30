@@ -26,6 +26,10 @@ function tekenRaster() {
   push();
   noFill();
   stroke('grey');
+ 
+
+ 
+ 
   /*
   Maak hieronder een dubbele herhaling om een raster te maken.
   HINT: je kunt terugkijken naar het raster dat je in H1 hebt gemaakt.

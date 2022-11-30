@@ -13,11 +13,18 @@ function setup() {
 
 function draw() {
   tekenAchtergrond();
-
   
-    tekenHuis(kleur,13);
+  for (var h = 0;h < huisNummers.length;h++) {
+    tekenHuis(kleur,huisNummers[h],huisEigenaren[h]);
     translate(150,0);
-
+    if (kleur == 'lightgray') {
+      kleur = 'darkgrey';
+    }
+    else {
+      kleur = 'lightgray';
+    }    
+  }
+  
 }
 
 function tekenHuis(kleur,nr) {

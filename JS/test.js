@@ -1,14 +1,27 @@
+function preload() {
+  kever = loadImage("images/sprites/kever.png");
+
+
+}
+
+
 function setup() {
-  canvas = createCanvas(450,450);
-  background('silver');
+  canvas = createCanvas(650,650);
+
   canvas.parent('processing');
-  //noLoop();
+  keverX = 150;
+  keverY = 100;
+
 }
 
 function draw() {
   noStroke();
-  fill('steelblue');
-  ellipse(0,0,800);
-  fill('deepskyblue');
-  ellipse(450,450,400);
+  
+  image(kever,keverX,keverY,80,30);
+  for (var n = 1;n <= 10;n++) {
+    image (kever,20,20,50,50);
+    translate(60,0);
+   }
 }
+
+

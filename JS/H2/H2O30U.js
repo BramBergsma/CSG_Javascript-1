@@ -5,6 +5,10 @@ class Boom {
   this.x = x;
   this.kleurStam = kls;
   }
+
+  class dobbelsteen {
+    
+  }
   
   groei() {
     if (this.leeftijd < 20) {

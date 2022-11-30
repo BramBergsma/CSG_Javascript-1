@@ -38,6 +38,10 @@ function draw() {
   if (keyIsDown(DOWN_ARROW)) {
     yJos += celGrootte;
   }
+  if (keyIsDown(LEFT_ARROW)) {
+    xJos -= celGrootte;
+    nummer = 2;
+    }
   
   xJos = constrain(xJos,0,width - celGrootte);
   yJos = constrain(yJos,0,height - celGrootte);
