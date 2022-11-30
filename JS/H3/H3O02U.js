@@ -29,7 +29,7 @@ class Galgje {
     this.maximaalAantalBeurten = 10;
     this.speler.resterendeBeurten = this.maximaalAantalBeurten;
     this.beeldjes = b;
-    this.woord = 'veranderingen';
+    this.woord = 'balkanker';
     this.letters = [];
     this.geraden = [];
     this.pogingen = [0];

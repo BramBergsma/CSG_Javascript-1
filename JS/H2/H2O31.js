@@ -54,7 +54,7 @@ class DobbelSteen {
   var totaal = 0;
   
   function draw() {
-    if (mouseIsPressed) {
+    if (keyIsDown(LEFT_ARROW)) {
       dob1.gooi();
       dob2.gooi();
       dob3.gooi();

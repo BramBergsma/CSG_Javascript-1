@@ -44,7 +44,7 @@ class Nim {
   
   verwerkInvoer(invoer) {
     this.aantalMunten -= invoer;
-    this.tegenZet = 4 - invoer;
+    this.tegenZet = 3 - invoer;
     this.aantalMunten -= this.tegenZet;
     this.teken();
   }
@@ -86,14 +86,14 @@ class Nim {
   
   tekenEindscherm() {
     push();
-    background('red');
+    background('green');
     noStroke();
     textSize(40);
     textAlign(CENTER,CENTER);
-    fill('indianred');
+    fill('green');
     rect(0,0,canvas.width,canvas.height);
     fill('white');
-    var tekst="Je hebt verloren :(\n\nDruk op de spatiebalk.";
+    var tekst="Je hebt gewonnen :0\n\nDruk op de spatiebalk.";
     text(tekst,0,0,canvas.width,canvas.height);    
     pop();    
   }

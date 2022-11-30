@@ -44,7 +44,7 @@ class Nim {
   
   verwerkInvoer(invoer) {
     this.aantalMunten -= invoer;
-    this.tegenZet = 4 - invoer;
+    this.tegenZet = 3 - invoer;
     this.aantalMunten -= this.tegenZet;
     this.teken();
   }
