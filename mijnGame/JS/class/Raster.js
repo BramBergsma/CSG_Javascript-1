@@ -1,11 +1,9 @@
 class Raster {
-    constructor(r,k) {
-      this.aantalRijen = 11;
-      this.aantalKolommen = 20;
+    constructor() {
+      this.aantalRijen = 15;
+      this.aantalKolommen = 15;
       this.celGrootte = null;
     }
-  
-
     berekenCelGrootte() {
       this.celGrootte = canvas.width / this.aantalKolommen;
     }

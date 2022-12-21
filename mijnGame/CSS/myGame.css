@@ -1,8 +1,17 @@
 html,body {
-    margin: 0;
+    margin: 10;
     padding: 0;
+    display: grid;
+    place-items: center;
+  
 }
 
 body {
-    overflow: hidden;
+    border: 5px solid black ;
+    overflow: hidden; 
+    font-family: montserrat;
+    
 }
+
+
+
